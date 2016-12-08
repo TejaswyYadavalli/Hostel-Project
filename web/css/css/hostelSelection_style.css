@@ -1,0 +1,188 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 27, 2015, 11:17:31 PM
+    Author     : CHAHNA
+*/
+
+*{
+    margin: 0;
+    height: 100%;
+
+}
+body{
+    font-family: cursive;
+}
+#header { 
+    height: 90px;
+    background-color: #1DAF15;
+}
+.nav{
+    background-color:  #177412;
+    box-sizing:border-box;
+    width: 100%;
+    height: 20px;
+    font-family: cursive;
+}
+#menu-list{
+    text-align: right;
+    width: auto;
+    float: right;
+}
+
+.list{
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+}
+
+
+.list > li {
+    float: left;
+    margin: 0 0.65em;
+    text-align: center;
+
+
+
+}
+.list >li > a{
+
+
+    display: block;
+    box-sizing: border-box;
+    color: #B0EBAD;
+    text-decoration: none;
+
+
+}
+
+
+
+#title {
+    text-align: left;
+    margin-left: 50px;
+    position: absolute;
+    top: 25px;
+    color: #1D4E19;
+}
+
+#menu {
+    position: absolute;
+    top: 90px;
+    background-color: #177412;
+    height: 35px;
+    padding-top: 15px;
+    font-size:18px;
+    text-decoration:none;
+    font-family: cursive;
+    font-weight: 500;
+    font-stretch: expanded;
+    width: 100%;
+
+
+}
+#left{
+    text-align: left;
+    margin-left: 50px;
+    color: #B0EBAD; 
+}
+
+
+.menu-icon {
+    padding-right:20px;
+    padding-left:20px;
+    display:inline;
+    font-size:18px;
+    text-decoration:none;
+    font-family: cursive;
+    font-weight: 500;
+    font-stretch: expanded;
+    outline: none;
+}
+
+
+a.menu-icon:link {
+    color: #B0EBAD;
+}
+a.menu-icon:visited {
+    color: #B0EBAD;
+}
+a.menu-icon:hover {
+    color: #1D4E19;
+    font-weight: bold;
+    font-stretch: extra-expanded;
+}
+a.menu-icon:active {
+    color: #319A56;
+    font-weight: bold;
+    font-size: 19px;
+}
+#content { 
+    background-color: #444444; 
+    text-align: center;
+    position: absolute;
+    top: 140px;
+    bottom: 0;
+    width: 100%;
+    overflow-y: hidden;
+}
+#girls{
+    margin-top: 50px;
+    color: #43863F;
+    font-size: 22px;
+    font-family: cursive;
+    font-weight: bold;
+}
+#boys{
+    margin-top: 50px;
+    color: #43863F;
+    font-size: 22px;
+    font-family: cursive;
+    font-weight: bold;   
+}
+figure
+{
+    display: inline-block;
+    margin-left: 50px;
+}
+figure figcaption {
+    text-align: center;
+}
+.hostelpic{
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+    height: 180px;
+}
+.imagelink{
+    font-size:18px;
+    text-decoration:none;
+    font-family: cursive;
+    font-weight: 500;
+    font-stretch: expanded;
+    text-align: center;
+    outline: none;
+}
+
+
+a.imagelink:link {
+    color: #B0EBAD;
+}
+a.imagelink:visited {
+    color: #B0EBAD;
+}
+a.imagelink:hover {
+    color: #1DAF15;
+    font-weight: bold;
+    font-stretch: extra-expanded;
+}
+a.imagelink:active {
+    color: #319A56;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+

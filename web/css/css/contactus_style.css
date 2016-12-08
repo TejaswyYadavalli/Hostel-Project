@@ -1,0 +1,45 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12-Aug-2015, 22:41:03
+    Author     : Valar Morghulis
+*/
+
+html, body {
+    background: #f7f7f7;
+    font-family: cursive ;
+}
+#info{
+    text-align: center;
+    font-weight: bold;
+}
+#contact{
+    text-align: center;
+}
+
+#details{
+    text-align: center;
+
+}
+#mytable{
+    font-family: cursive ;
+    font-size:11px;
+    color:#333333;
+    border: 1px solid black;
+    border-width: 1px;
+    border-color: #666666;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 0px auto;    
+
+}
+#mytable td{
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #666666;
+    background-color: #ffffff;
+}

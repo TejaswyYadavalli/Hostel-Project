@@ -1,0 +1,117 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10-Aug-2015, 18:40:41
+    Author     : Valar Morghulis
+*/
+
+body{
+    font-family: cursive;
+}
+
+#header {
+    width: 100%;
+    height: 110px;
+    background-color: #1DAF15;
+}
+
+#title {
+  margin-left: 550px;
+    position: absolute;
+    top: -10px;
+    left: -140px;
+    color: #1D4E19;
+    font-size: 25px;
+}
+.main-nav{
+    background-color:  #177412;
+    width: 100%;
+    height: 40px;
+    font-family: cursive;
+    box-sizing: border-box;
+    padding-left: 60px;
+}
+
+.nav-list{
+    list-style: none;
+    padding-left: 0;
+    width: 900px;
+    margin: 0 auto;
+}
+
+
+.nav-list > li {
+    margin: 0;
+    float: left;
+    width: 200px;
+    height: 40px;
+    position: relative;
+    padding-right:30px;
+    padding-left:160px;
+}
+.nav-list >li > a{
+    color: #B0EBAD;
+    text-decoration: none;
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    padding-top: 12px;
+    box-sizing: border-box;
+
+}
+
+.nav-list > li > a:hover{
+    color: #1D4E19;
+    font-weight: bold;
+    font-stretch: extra-expanded;
+    text-decoration: none;
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    padding-top: 12px;
+    box-sizing: border-box;
+
+}
+.nav{
+    background-color:  #177412;
+    box-sizing:border-box;
+    width: 100%;
+    height: 20px;
+    font-family: cursive;
+}
+#menu-list{
+    text-align: right;
+    width: auto;
+    float: right;
+}
+
+.list{
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+}
+
+
+.list > li {
+    float: left;
+    margin: 0 0.65em;
+    text-align: center;
+
+
+
+}
+.list >li > a{
+
+
+    display: block;
+    box-sizing: border-box;
+    color: #B0EBAD;
+    text-decoration: none;
+
+
+}

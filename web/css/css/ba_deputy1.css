@@ -1,0 +1,134 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24 Aug, 2015, 2:35:38 AM
+    Author     : VASUDEVA RAO
+*/
+
+.nav{
+    background-color:  #177412;
+    box-sizing:border-box;
+    width: 100%;
+    height: 20px;
+    font-family: cursive;
+}
+#menu-list{
+    text-align: right;
+    width: auto;
+    float: right;
+}
+
+.list{
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+}
+
+
+.list > li {
+    float: left;
+    margin: 0 0.65em;
+    text-align: center;
+
+
+
+}
+.list >li > a{
+
+
+    display: block;
+    box-sizing: border-box;
+    color: #B0EBAD;
+    text-decoration: none;
+
+
+}
+
+.main-nav{
+    padding-left: 50px;
+    position: absolute;
+    top:100px;
+    background-color:  #177412;
+    width: 100%;
+    height: 40px;
+    font-family: cursive;
+    box-sizing: border-box
+}
+
+.nav-list{
+
+    list-style: none;
+    padding-left: 0;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+.nav-list > li {
+    margin: 0;
+    float: left;
+    width: 200px;
+    height: 40px;
+    position: relative;
+    padding-left:180px;
+}
+.nav-list >li > a{
+    color: #B0EBAD;
+    text-decoration: none;
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    padding-top: 12px;
+    box-sizing: border-box;
+    outline: none;
+
+}
+
+.nav-list > li > a:hover{
+    color: #1D4E19;
+    font-weight: bold;
+    text-decoration: none;
+    position: absolute;
+    width: 210px;
+    height: 40px;
+    text-align: center;
+    padding-top: 12px;
+    box-sizing: border-box;
+
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: cursive;
+    overflow: hidden;
+}
+
+#header {
+    height: 110px;
+    background-color: #1DAF15;
+}
+#title {
+    text-align: left;
+    margin-left: 490px;
+    position: absolute;
+    top: -10px;
+    color: #1D4E19;
+    font-size: 25px;
+}
+
+
+#content{
+    background-color: #444444;    
+    position: absolute;
+    top: 140px;
+    bottom: 0;
+    width: 100%;
+    height: 100%
+}
+
+

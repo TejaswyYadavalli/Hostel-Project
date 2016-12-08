@@ -1,0 +1,229 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22 Sep, 2015, 1:05:03 PM
+    Author     : VASUDEVA RAO
+*/
+
+*{
+    margin: 0;
+
+
+
+}
+body{
+    font-family: cursive;
+    overflow-x: hidden;
+}
+#header { 
+    height: 90px;
+    background-color: #1DAF15;
+    width: 100%;
+}
+
+#title {
+    text-align: left;
+    margin-left: 50px;
+    position: absolute;
+    top: 25px;
+    color: #1D4E19;
+}
+
+#menu {
+    position: absolute;
+    top: 90px;
+    background-color: #177412;
+    height: 35px;
+    padding-top: 15px;
+    font-size:18px;
+    text-decoration:none;
+    font-family: cursive;
+    font-weight: 500;
+    font-stretch: expanded;
+    width: 100%;
+
+}
+#left{
+    text-align: left;
+    margin-left: 50px;
+    color: #B0EBAD; 
+}
+
+
+.menu-icon {
+    padding-right:20px;
+    padding-left:20px;
+    display:inline;
+    font-size:18px;
+    text-decoration:none;
+    font-family: cursive;
+    font-weight: 500;
+    font-stretch: expanded;
+}
+
+
+a.menu-icon:link {
+    color: #B0EBAD;
+}
+a.menu-icon:visited {
+    color: #B0EBAD;
+}
+a.menu-icon:hover {
+    color: #1D4E19;
+    font-weight: bold;
+    font-stretch: extra-expanded;
+}
+a.menu-icon:active {
+    color: #319A56;
+    font-weight: bold;
+    font-size: 19px;
+}
+#content { 
+    background-color: white; 
+    text-align: center;
+    position: absolute;
+    top: 140px;
+    bottom: 0;
+
+}
+#ground_floor{
+    margin-left: 100px;
+}
+
+.nav{
+    background-color:  #177412;
+    box-sizing:border-box;
+    width: 100%;
+    height: 20px;
+    font-family: cursive;
+}
+#menu-list{
+    text-align: right;
+    width: auto;
+    float: right;
+}
+
+.list{
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+}
+
+
+.list > li {
+    float: left;
+    margin: 0 0.65em;
+    text-align: center;
+
+
+
+}
+.list >li > a{
+
+
+    display: block;
+    box-sizing: border-box;
+    color: #B0EBAD;
+    text-decoration: none;
+   
+ 
+
+
+}
+
+.list > li > a:hover{
+    color: #1D4E19;
+    box-sizing: border-box;
+    
+    
+    
+}
+
+.bed{
+    width: 100px;
+    height: 20px;
+    margin: 5px 10px 45px 10px;
+    background-color: #f0f0f0;
+    color: #666;
+    text-align: center;
+    padding: 3px;
+    border-radius: 5px;
+    position: relative;
+    left: 200px;
+    top: 20px;
+
+
+} 
+.seat-allotment {
+
+    position: relative;
+    width:200px;
+    height: 40px;
+    margin-right: 400px;
+    padding-left: 900px
+}
+.seat-allotment p{
+    line-height:30px;
+    font-size:16px;
+    color:#999;
+} 
+.bed-allotment p span{
+    color:#666
+} 
+
+
+#allot{
+    top: 80px;
+    position: absolute;
+
+
+}
+
+.styled-button-1 {
+    -webkit-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+    -moz-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+    box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+    color:#B0EBAD;
+    background-color:#1DAF15;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border:none;
+    font-family:'Helvetica Neue',Arial,sans-serif;
+    font-size:16px;
+    font-weight:700;
+    height:30px;
+    padding:4px 16px;
+    text-shadow:#FE6 0 1px 0
+
+
+
+}
+
+
+.input{
+    background-color: yellowgreen;
+}
+
+.input.changecolor{
+    background-color: yellow;
+}
+
+.input1{
+    background-color: yellowgreen;
+}
+
+.input1.changecolor1{
+    background-color: yellow;
+}
+
+.input2{
+    background-color: yellowgreen;
+}
+
+.input2.changecolor2{
+    background-color: yellow;
+}

@@ -1,0 +1,84 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29-Jul-2015, 21:31:29
+    Author     : Valar Morghulis
+*/
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: cursive;
+}
+
+#header {
+    width: 100%;
+    height: 110px;
+    background-color: #1DAF15;
+}
+#title {
+    position: absolute;
+    top: -10px;
+    color: #1D4E19;
+    font-size: 25px;
+    margin-left: 690px;
+}
+.main-nav{
+    background-color:  #177412;
+    width: 100%;
+    height: 40px;
+    font-family: cursive;
+}
+
+#content{
+    background-color: #444444;    
+    position: absolute;
+    top: 148px;
+    bottom: 0;
+    width: 100%; 
+}
+
+#table1{
+    background-color: white;
+    position: relative;
+    top: 40px;
+    padding:1%;
+    border-spacing: 5px;
+    border-collapse: separate;
+    margin: 0px auto;
+    border: 3px solid black;
+    border-radius: 8px;
+    box-sizing: border-box;
+
+}
+#style1{
+    text-align: right;
+    padding: 6px;
+    border-spacing: 2px;
+}
+
+
+.styled-button-1 {
+    -webkit-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+    -moz-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+    box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+    color:#333;
+    background-color:#FA2;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border:none;
+    font-family:'Helvetica Neue',Arial,sans-serif;
+    font-size:16px;
+    font-weight:700;
+    height:32px;
+    padding:4px 16px;
+    text-shadow:#FE6 0 1px 0
+
+
+
+}
+

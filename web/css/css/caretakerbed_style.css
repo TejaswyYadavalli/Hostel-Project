@@ -1,0 +1,180 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 12, 2015, 2:13:00 PM
+    Author     : saibaba
+*/
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: cursive;
+}
+#header { 
+    height: 110px;
+    background-color: #1DAF15;
+    text-align: center;
+}
+
+#title {
+    margin-left: 590px;
+    position: absolute;
+    top: -10px;
+    color: #1D4E19;
+    font-size: 25px;
+}
+#menu {
+    background-color:  #177412;
+    border-bottom: 2px solid #aaa;
+    width: 100%;
+    height: 40px;
+    font-family: cursive;
+    position: absolute;
+    top: 110px;
+        
+
+}
+#content{
+   
+   background-color: #444444;    
+    position: absolute;
+    top: 150px;
+    bottom: 0;
+    width: 100%; 
+}
+
+#table1{
+    background-color: white;
+    padding:1%;
+    border-spacing: 5px;
+    border-collapse: separate;
+    margin: 8px auto;
+    border: 2px solid black;
+    border-radius: 8px;
+    position: relative;
+    top: 30px;
+
+}
+
+#style1{
+    text-align:left;
+    padding: 6px;
+    border-spacing: 2px;
+}
+
+.styled-button-1 {
+    -webkit-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+    -moz-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+    box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+    color:#333;
+    background-color:#FA2;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border:none;
+    font-family:'Helvetica Neue',Arial,sans-serif;
+    font-size:16px;
+    font-weight:700;
+    height:32px;
+    padding:4px 16px;
+    text-shadow:#FE6 0 1px 0
+
+
+
+}
+.nav{
+    background-color:  #177412;
+    box-sizing:border-box;
+    width: 100%;
+    height: 20px;
+    font-family: cursive;
+}
+#menu-list{
+    text-align: right;
+    width: auto;
+    float: right;
+}
+
+.list{
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+}
+
+
+.list > li {
+    float: left;
+    margin: 0 0.65em;
+    text-align: center;
+
+
+
+}
+.list >li > a{
+
+
+    display: block;
+    box-sizing: border-box;
+    color: #B0EBAD;
+    text-decoration: none;
+
+
+}
+
+
+.main-nav{
+    background-color:  #177412;
+    border-bottom: 2px solid #aaa;
+    width: 100%;
+    height: 40px;
+    font-family: cursive;
+}
+
+.nav-list{
+    list-style: none;
+    padding-left: 0;
+    width: 900px;
+    margin: 0 auto;
+}
+
+
+.nav-list > li {
+    margin: 0;
+    float: left;
+    width: 200px;
+    height: 40px;
+    position: relative;
+    padding-left:180px;
+}
+.nav-list >li > a{
+    color: #B0EBAD;
+    text-decoration: none;
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    padding-top: 12px;
+    box-sizing: border-box;
+    outline: none;
+
+}
+
+.nav-list > li > a:hover{
+    color: #1D4E19;
+    font-weight: bold;
+    font-stretch: extra-expanded;
+    text-decoration: none;
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    padding-top: 12px;
+    box-sizing: border-box;
+
+}
+
+
